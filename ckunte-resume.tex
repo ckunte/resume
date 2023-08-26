@@ -1,0 +1,46 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+\documentclass[10pt]{article}
+\usepackage{incl/ckunte-resume} % references incl/ckunte-resume.sty file
+\begin{document}
+
+\begin{flushleft}
+  \textrm{\LARGE{\theauthor}} \\
+  % 152 Jalan Ampang, 50450 Kuala Lumpur, \textsc{my} \\
+  % Offshore Structures Engineer \\
+  \href{mailto:chetan@ckunte.net}{chetan@ckunte.net}, +60 17 649 7951
+\end{flushleft} 
+
+% \hrule~
+
+\input{incl/profile}
+
+~\hrule
+
+\begin{multicols}{2}
+
+\input{incl/jobs} % Experience section
+
+\input{incl/edu} % Education section
+
+\input{incl/memb} % Accreditations section
+
+\input{incl/comp} % Competencies section
+
+\input{incl/hon} % Honours and recognitions section
+
+\input{incl/misc} % Professional activities section
+
+\input{incl/ptw} % Permit to work section
+
+\input{incl/ref} % References section
+
+\end{multicols}
+
+\vfill{}
+
+\begin{center}
+  \scriptsize{Last updated: \today}
+\end{center}
+
+\end{document}
