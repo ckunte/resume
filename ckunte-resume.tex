@@ -2,44 +2,36 @@
 %!TEX encoding = UTF-8 Unicode
 \documentclass[10pt]{article}
 \usepackage{incl/ckunte-resume} % references incl/ckunte-resume.sty file
+
 \begin{document}
 
-\begin{flushleft}
-  \textrm{\LARGE{\theauthor}} \\
-  +60 17 649 7951, \href{mailto:chetan@ckunte.net}{chetan@ckunte.net} \hfill
-  \smash{\includegraphics[width=1.5cm]{incl/ckunte}}
-\end{flushleft}
+  \begin{flushleft}
+    \textrm{\LARGE{\theauthor}} \\
+    \href{mailto:chetan@ckunte.net}{chetan@ckunte.net} \hfill
+    \smash{\includegraphics[width=1.5cm]{incl/ckunte}}
+  \end{flushleft}
 
-% \hrule~
+  \input{incl/profile}
 
-\input{incl/profile}
+  ~\hrule
 
-~\hrule
+  \begin{multicols}{2}
 
-\begin{multicols}{2}
+  \input{incl/comp} % Competencies section
+  \input{incl/jobs} % Experience section
+  \input{incl/edu} % Education section
+  \input{incl/memb} % Accreditations section
+  \input{incl/hon} % Honours and recognitions section
+  \input{incl/misc} % Professional activities section
+  \input{incl/ptw} % Permit to work section
+  \input{incl/ref} % References section
 
-\input{incl/jobs} % Experience section
+  \end{multicols}
 
-\input{incl/edu} % Education section
+  \vfill{}
 
-\input{incl/memb} % Accreditations section
-
-\input{incl/comp} % Competencies section
-
-\input{incl/hon} % Honours and recognitions section
-
-\input{incl/misc} % Professional activities section
-
-\input{incl/ptw} % Permit to work section
-
-\input{incl/ref} % References section
-
-\end{multicols}
-
-\vfill{}
-
-\begin{center}
-  \scriptsize{Last updated: \today} % This resum\'{e} is an abridged version of C Kunt\'{e}'s \textsc{cv}.
-\end{center}
+  \begin{center}
+    \scriptsize{Last updated: \today} % This resum\'{e} is an abridged version of C Kunt\'{e}'s \textsc{cv}.
+  \end{center}
 
 \end{document}
