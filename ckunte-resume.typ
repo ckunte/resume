@@ -1,30 +1,38 @@
 // C Kunte's resume
 #import "/inc/preamble.typ": resume
 #show: doc => resume(doc)
+// meta info
+#let auth_name = "Chetan Kunte"
+#let auth_mail = "ckunte@gmail.com"
+#let res_title = auth_name + " - resumé"
+#let start_year = 1995 // year of beginning my career
+#let curr_year = int(datetime.today().display("[year]")) // current year in int.
+#let tot_exp = calc.abs(curr_year - start_year) // total exp. in years
+#let op_exp = calc.abs(curr_year - start_year - 16) // oper. exp. in years
+//
 #set document(
-  title: [Chetan Kunte -- resumé],
-  author: "Chetan Kunte",
+  title: res_title,
+  author: auth_name,
 )
 #set page(header: context {
   if counter(page).get().first() > 1 [
     ~
     #h(1fr)
-    _C Kunte's resumé_
+    _#auth_name's resumé_
   ]
 })
-//
 // title + subtitle
 #align(center, text(18pt)[
-  *Chetan Kunte*
+  *#auth_name*
 ])
 
 #align(center, [
-  ckunte\@gmail.com
+  #auth_mail
 ])
 //
 #v(2em)
 \
-Offshore structures engineer with 29 years of proven track record in engineering, fabrication, and installation of fixed and floating offshore systems, and 13 years in supporting and troubleshooting for operating units./*Designated technical authority for fixed structures, and mooring systems.*/ Experienced in managing projects and engineering teams, inter-discipline coordination, cost control, and stakeholder management. Self-driven professional, striving for safety and quality in all undertaken activities without compromising schedule or cost. Strives to help deliver challenging projects, and manage assets efficiently---both as a team leader as well as an individual contributor. Generates value by employing competitive scoping, standardisation, automation where practicable, and by delivering via others.
+Offshore structures engineer with #tot_exp years of proven track record in engineering, fabrication, and installation of fixed and floating offshore systems, and #op_exp years in supporting and troubleshooting for operating units./*Designated technical authority for fixed structures, and mooring systems.*/ Experienced in managing projects and engineering teams, inter-discipline coordination, cost control, and stakeholder management. Self-driven professional, striving for safety and quality in all undertaken activities without compromising schedule or cost. Strives to help deliver challenging projects, and manage assets efficiently---both as a team leader as well as an individual contributor. Generates value by employing competitive scoping, standardisation, automation where practicable, and by delivering via others.
 
 = Education
 

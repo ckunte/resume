@@ -1,14 +1,6 @@
 #let resume(doc) = {
 // settings
   set page(
-    /*
-    background: align(center + bottom)[
-      #image("/inc/kentplc-footer-graphic.png", width: auto)
-    ],
-    header: align(top + left)[
-      #image("/inc/kentlogo.png", height: 0.5in)
-    ],
-    */
     margin: (
       x: 1in,
       y: 1in,
