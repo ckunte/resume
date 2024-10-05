@@ -1,6 +1,17 @@
 // C Kunte's resume
 #import "/inc/preamble.typ": resume
 #show: doc => resume(doc)
+#set document(
+  title: [Chetan Kunte -- resumé],
+  author: "Chetan Kunte",
+)
+#set page(header: context {
+  if counter(page).get().first() > 1 [
+    ~
+    #h(1fr)
+    _C Kunte's resumé_
+  ]
+})
 //
 // title + subtitle
 #align(center, text(18pt)[
