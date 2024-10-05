@@ -67,7 +67,7 @@ Offshore structures engineer with 29 years of proven track record in engineering
 / 2019-23: Substructure lead, Crux project, Shell Australia Pty Ltd
 / 2016-18: Principal technical expert, Shell India Markets Pvt Ltd
 / 2012-15: Team lead offshore structures, Shell Malaysia Exploration \& Production
-/ 2006-11: Senior research engineer, Shell Intl. Exploration \& Production, The Netherlands
+/ 2006-11: Snr. research engineer, Shell Intl. Exploration \& Production, The Netherlands
 / 2000-06: Lead offshore structures engineer, Technip Malaysia
 / 1996-00: Offshore structures engineer, John Brown Engineers India
 / 1995-96: Junior engineer, Gammon India
