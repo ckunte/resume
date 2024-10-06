@@ -22,7 +22,7 @@ jobs:
 
       - name: prep typst
         uses: typst-community/setup-typst@v3
-      - run: typst compile ckunte-resume.typ --font-path=./fonts/
+      - run: typst compile ckunte-resume.typ --font-path=fonts
 
       - name: release
         uses: softprops/action-gh-release@v1
