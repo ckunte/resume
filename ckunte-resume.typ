@@ -18,7 +18,7 @@
   if counter(page).get().first() > 1 [
     ~
     #h(1fr)
-    _#auth_name's resumé_
+    _C Kunte_
   ]
 })
 // title + subtitle
@@ -37,14 +37,14 @@ Offshore structures engineer with #tot_exp years of proven track record in engin
 = Education
 
 / 2021: Wind energy, Technical University of Denmark (DTU, DK) // https://www.coursera.org/account/accomplishments/certificate/Y9CRZSXUSTWB
-/ 2017: Project management framework, IN
-/ 2016: P299 Layout course, IN
-/ 2013: Managing upstream business, NL
+/ 2017: Project management framework, Shell Academy, IN
+/ 2016: P299 Layout course, Shell Academy, IN
+/ 2013: Managing upstream business, Shell Academy, NL
 / 2012: Advanced analysis with USFOS, MY
-/ 2010: Assessment of maritime (hull) structures, NL
-/ 2008: Facilities integration and production engineering, NL
-/ 2008: Developing Exploration and Production business skills, NL
-/ 2007: Advanced knowledge management, NL
+/ 2010: Assessment of maritime (hull) structures, DNV, NL
+/ 2008: Facilities integration and production engineering, Shell Academy, NL
+/ 2008: Developing Exploration and Production business skills, Shell Academy, NL
+/ 2007: Advanced knowledge management, Shell Academy, NL
 / 1994: M.Eng., Structural, Karnatak University, IN
 
 = Professional accreditations
@@ -83,7 +83,7 @@ Offshore structures engineer with #tot_exp years of proven track record in engin
 = Positions
 
 / 2024-date: Principal engineer, Kent Australia
-/ 2019-23: Substructure lead, Crux project, Shell Australia Pty Ltd
+/ 2019-24: Substructure lead, Crux project, Shell Australia Pty Ltd
 / 2016-18: Principal technical expert, Shell India Markets Pvt Ltd
 / 2012-15: Team lead offshore structures, Shell Malaysia Exploration \& Production
 / 2006-11: Snr. research engineer, Shell Intl. Exploration \& Production, The Netherlands
@@ -207,7 +207,29 @@ Offshore structures engineer with #tot_exp years of proven track record in engin
 
 = Software development
 
-See personal projects section on #link("https://ckunte.net")[ckunte.net] for an up-to-date list of software developed.
+/ typst-snippets-st: Offers useful text-expanding snippets for Sublime Text editor in authoring papers, notes, reports, and viewgraphs effortlessly Typst. (#link("https://github.com/ckunte/typst-snippets-st")[Repository], MIT license, open source, freeware)
+
+/ typst-snippets-vim: Offers useful text-expanding snippets for Vim and Neovim text editors in authoring papers, notes, reports, and viewgraphs effortlessly Typst. (#link("https://github.com/ckunte/typst-snippets-vim")[Repository], MIT license, open source, freeware)
+
+/ csv2sacs: Python scripts to convert Metocean data into a readily usable SACS seastate input file(s). (#link("https://github.com/ckunte/csv2sacs")[Repository], MIT license, open source, freeware)
+
+/ latex-snippets-st: Offers useful text-expanding snippets for Sublime Text editor in authoring papers, notes, and reports effortlessly in LaTeX. (#link("https://github.com/ckunte/latex-snippets-st")[Repository], MIT license, open source, freeware)
+
+/ latex-snippets-vim: Offers useful text-expanding snippets for Vim and Neovim text editors in authoring papers, notes, and reports effortlessly in LaTeX. (#link("https://github.com/ckunte/latex-snippets-vim")[Repository], MIT license, open source, freeware)
+
+/ sacs_st: A cross-platform syntax highlighting plug-in for Sublime Text editor that colour codes various SACS input parameters to help break the monotony of text and improve readability of model input files. (#link("https://github.com/ckunte/sacs_st")[Repository], MIT license, open source, freeware)
+
+/ usfos_st: A cross-platform syntax highlighting plug-in for Sublime Text editor that colour codes various USFOS input parameters to help break the monotony of text and improve readability of model input files. (#link("https://github.com/ckunte/usfos_st")[Repository], MIT license, open source, freeware)
+
+/ chisel: A lean, static website generator publishing software written for python with many useful features. (#link("https://github.com/ckunte/chisel")[Repository], MIT license, open source, freeware)
+
+= Training material
+
+/ offshore-lifts: Educational presentation pack covering offshore lifts (#link("https://github.com/ckunte/offshore-lifts")[source])
+
+/ structural-dynamics: Educational presentation pack covering historical underpinnings and introduction to structural dynamics (#link("https://github.com/ckunte/structural-dynamics")[source]) 
+
+/ git-talk: Education presentation pack covering version control for engineers (using git) for model management (#link("https://github.com/ckunte/git-talk")[source])
 
 #v(1fr)
 
