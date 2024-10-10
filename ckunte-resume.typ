@@ -18,7 +18,7 @@
   if counter(page).get().first() > 1 [
     ~
     #h(1fr)
-    _C Kunte_
+    _ #auth_name _
   ]
 })
 // title + subtitle
@@ -159,7 +159,7 @@ Offshore structures engineer with #tot_exp years of proven track record in engin
 
 / 2016: C Kunte, P Sarathi, _Review of Crux fixed platform for jack-up access_, Shell P&T library.
 
-/ 2016: A Meshram, C Kunte, Crux fixed platform -- _Preliminary structural feasibility of early tad drilling over jacket substructure_, Shell P&T library.
+/ 2016: A Meshram, C Kunte, Crux fixed platform -- _Preliminary structural feasibility of early TAD drilling over jacket substructure_, Shell P&T library.
 
 / 2014: C Kunte, _Feasbility of BTMPB platform for well intervention activities at BT-206_, Shell Malaysia library.
 
