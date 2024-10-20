@@ -18,8 +18,7 @@
   )
 
   // Configure paragraph properties
-  set par(leading: 0.65em, first-line-indent: 12pt, justify: true)
-  show par: set block(spacing: 0.65em)
+  set par(spacing: 0.65em, leading: 0.65em, first-line-indent: 12pt, justify: true)
 
   // Emphasise caption
   show figure.caption: emph
